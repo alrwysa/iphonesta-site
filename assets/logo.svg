@@ -1,0 +1,30 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- الخلفية -->
+  <rect width="512" height="512" rx="96" fill="#EBE9DD"/>
+
+  <!-- اسم المتجر: ألف عارية + الأموال تحل محل المدّة -->
+  <text x="262" y="336" text-anchor="middle" font-family="Almarai, sans-serif" font-weight="800" font-size="118" fill="#4A623D">ايفونستا</text>
+
+  <!-- الأموال الذهبية فوق حرف الألف (تحل محل المدّة) -->
+  <g transform="translate(452 206) rotate(-12)">
+    <!-- ورقة نقدية -->
+    <rect x="-46" y="-22" width="92" height="44" rx="8" fill="#D4AF37"/>
+    <rect x="-46" y="-22" width="92" height="44" rx="8" fill="none" stroke="#B8912B" stroke-width="3"/>
+    <ellipse cx="0" cy="0" rx="16" ry="12" fill="#B8912B"/>
+    <path d="M-36 -12 h14 M-36 0 h14 M-36 12 h14" stroke="#B8912B" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M22 -12 h14 M22 0 h14 M22 12 h14" stroke="#B8912B" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <!-- عملات متطايرة -->
+  <g transform="translate(494 154)">
+    <circle r="13" fill="#D4AF37" stroke="#B8912B" stroke-width="3"/>
+    <path d="M-4 -5 v10 M4 -5 v10 M-6 -1 h12" stroke="#B8912B" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(414 158)">
+    <circle r="9" fill="#D4AF37" stroke="#B8912B" stroke-width="2.5"/>
+  </g>
+
+  <!-- خط ذهبي تحت الاسم -->
+  <path d="M62 386 H452" stroke="#D4AF37" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="462" cy="386" r="6" fill="#D4AF37"/>
+  <circle cx="52" cy="386" r="6" fill="#D4AF37"/>
+</svg>
